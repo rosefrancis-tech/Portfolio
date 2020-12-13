@@ -1,5 +1,9 @@
-/* CSS Style RESET starts */ 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+* {
+    box-sizing: border-box;
+  }
+
+/* CSS Style RESET starts 
+    http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -33,7 +37,7 @@ body {
     line-height: 1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: steelblue;
-    background-color: snow;
+    background-color: rgb(178, 212, 243);
 }
 ol, ul {
 	list-style: none;
@@ -50,7 +54,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* CSS Style RESET ends */ 
+/*CSS Style RESET ends */ 
 
 /* Header style starts */ 
 header {
@@ -100,7 +104,7 @@ nav a:hover {
 /* Hero style starts */ 
 .hero {
 background: rgb(49, 78, 85);
-background-image: url("./Assets/images/02-hero-bg.jpg"), linear-gradient(180deg, skyblue 0%, steelblue 100%);
+background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, skyblue 0%, steelblue 100%);
 background-size: cover;
 background-position: center;
 background-blend-mode: soft-light;
@@ -127,9 +131,103 @@ line-height: 1.2;
 display: inline;
 }
 /* Hero style ends */ 
+
 /* About Me style starts */ 
+main {
+    max-width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainitem {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.mainitem > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid steelblue;
+    font-size: 4vw;
+    line-height: 1.1;  
+}
+
+.mainitem > div {
+    flex: 0 0 77%;
+}
+
+.mainitem p {
+    margin-bottom: 20px;
+}
 /* About Me style ends */ 
+
 /* Work style starts */ 
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: mimmax(150px, 1fr);
+}
+
+.grid-item {
+    border: 5px solid skyblue;
+    grid-column: span 4;
+    background-color: steelblue;
+    color: #04171f;
+    min-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
+
+.image1 {
+    background-image: url("../images/02-portfolio-4.jpg");
+}
+.image2 {
+    background-image: url("../images/02-portfolio-1.jpg");
+}
+.image3 {
+    background-image: url("../images/02-portfolio-2.jpg");
+}
+.image4 {
+    background-image: url("../images/02-portfolio-3.jpg");
+}
+.image5 {
+    background-image: url("../images/02-run-buddy.jpg");
+} 
+
+.grid-item:first-child {
+    grid-column: span 8;
+    grid-row: span 2;
+}
+
+.grid-item:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.grid-item div {
+    background-color: skyblue;
+    padding: 8px 10px;
+}
+
+.grid-item h3 {
+    font-size: 1.6rem;
+}
 /* Work style ends */ 
+
 /* Contact me style starts */ 
 /* Contact me style ends */ 
