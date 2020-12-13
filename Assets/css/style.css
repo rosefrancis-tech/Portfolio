@@ -255,3 +255,73 @@ main {
     color: skyblue;
 }
 /* Contact me style ends */ 
+
+
+/* Responsive layout style starts */
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1 {
+        width: 100%;
+        font-size: 10vw;
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        justify-content: center;
+      }
+
+    .mainitem > h2,
+    .mainitem > div {
+        flex: 0 0 100%;
+  }
+    .mainitem > h2 {
+        border-right: none;
+        border-bottom: 4px solid steelblue;
+        /*margin-bottom: 20px;*/
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-item,
+    .grid-item:first-child {
+        grid-column: 1 / -1;
+  }
+
+  .grid-container {
+    grid-auto-rows: minmax(200px, 1fr);
+  }
+
+  .hero{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact address {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 420px) {
+    
+    .hero  {
+         align-items: center;
+         min-height: 10vh;
+        }
+    
+    .hero h2 {
+        background-color: none;
+        font-size: 1rem;
+    }
+              
+}
+
+/* Responsive layout style ends */
