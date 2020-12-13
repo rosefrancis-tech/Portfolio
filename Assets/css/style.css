@@ -33,6 +33,7 @@ body {
     line-height: 1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: steelblue;
+    background-color: snow;
 }
 ol, ul {
 	list-style: none;
@@ -67,7 +68,6 @@ header h1 {
     color: #04171f;
     padding: 5px 1% 5px 6%;
     font-size: 4vw;
-    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
 }
 
 nav {
@@ -95,8 +95,37 @@ nav a:hover {
     color: steelblue;
 }
 
-/* Header style ends */ 
+/* Header style ends */
+
 /* Hero style starts */ 
+.hero {
+background: rgb(49, 78, 85);
+background-image: url("./Assets/images/02-hero-bg.jpg"), linear-gradient(180deg, skyblue 0%, steelblue 100%);
+background-size: cover;
+background-position: center;
+background-blend-mode: soft-light;
+min-height: 30vh;
+color: snow;
+padding: 2% 6%;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+text-align: right;
+}
+
+.hero div {
+flex: 0 0 90%;
+}
+  
+.hero h2 {
+background-color: skyblue;
+color: #04171f;
+margin: 0;
+padding: 5px 10px;
+font-size: 2.3rem;
+line-height: 1.2;
+display: inline;
+}
 /* Hero style ends */ 
 /* About Me style starts */ 
 /* About Me style ends */ 
