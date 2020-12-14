@@ -72,6 +72,10 @@ header {
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
+   /* Positon code Source:https://www.w3schools.com/css/css_positioning.asp */
+   position: -webkit-sticky; 
+   position: sticky;
+   top: 0;
 }
 
 header h1 {
@@ -95,7 +99,7 @@ nav a {
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: bottom;
-    transition: all 0.2s ease-in;
+    /*transition: all 0.2s ease-in;*/
     font-size: 1.25rem;
     margin-right: 10px;
 }
@@ -115,7 +119,6 @@ background-size: cover;
 background-position: center;
 background-blend-mode: soft-light;
 min-height: 30vh;
-/*color: snow;*/
 padding: 2% 6%;
 display: flex;
 justify-content: flex-end;
@@ -138,7 +141,7 @@ display: inline;
 }
 /* Hero style ends */ 
 
-/* About Me style starts */ 
+/* Main style starts */ 
 main {
     max-width: 82%;
     margin-left: auto;
@@ -171,7 +174,7 @@ main {
 .mainitem p {
     margin-bottom: 20px;
 }
-/* About Me style ends */ 
+/* Main style ends */ 
 
 /* Work style starts */ 
 .grid-container {
@@ -196,7 +199,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: all 0.5s;
+    /*transition: all 0.5s;*/
     font-size: 0.9rem;
   }
 
@@ -253,7 +256,7 @@ main {
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: bottom;
-    transition: all 0.25s ease-in;
+    /*transition: all 0.25s ease-in;*/
     margin: 0 0.2rem 0.1rem;
 }
 
@@ -289,7 +292,6 @@ main {
     .mainitem > h2 {
         border-right: none;
         border-bottom: 4px solid var(--blueblack);
-        /*margin-bottom: 20px;*/
         padding-bottom: 10px;
         text-align: left;
         font-size: 7vw;
@@ -332,3 +334,26 @@ main {
 }
 
 /* Responsive layout style ends */
+
+/* footer style starts */
+footer {
+    background: var(--darkblue);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+/* footer style ends */
