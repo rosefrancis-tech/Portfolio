@@ -156,7 +156,8 @@ main {
 
 .mainitem {
     margin: 25px 0;
-    padding: 10px 0;
+    /*padding: 120px auto 0 auto;*/
+    padding-top: 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
