@@ -1,7 +1,15 @@
 # Portfolio
 
 ## Summary
-This website is a portfolio website and it belongs to Rose. 
+This is a portfolio website and it belongs to Rose. 
+
+## Deployed Application
+The url to the deployed portfolio:
+> [https://rosefrancis-tech.github.io/Portfolio/](https://rosefrancis-tech.github.io/Portfolio/)
+
+## Repository
+Please visit the githuib repository for the code.
+> [https://github.com/rosefrancis-tech/Portfolio](https://github.com/rosefrancis-tech/Portfolio)
 
 ## Technologies used
 
