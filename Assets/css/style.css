@@ -223,19 +223,19 @@ main {
   }
 
 .image1 {
-    background-image: url("../images/02-portfolio-4.jpg");
+    background-image: url("../images/save-tv.gif");
 }
 .image2 {
-    background-image: url("../images/02-portfolio-1.jpg");
+    background-image: url("../images/password.png");
 }
 .image3 {
-    background-image: url("../images/02-portfolio-2.jpg");
+    background-image: url("../images/taskinator.gif");
 }
 .image4 {
-    background-image: url("../images/02-portfolio-3.jpg");
+    background-image: url("../images/coding-quiz.gif");
 }
 .image5 {
-    background-image: url("../images/02-run-buddy.jpg");
+    background-image: url("../images/scheduler.gif");
 } 
 
 .grid-item:first-child {
