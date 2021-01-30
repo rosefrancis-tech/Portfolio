@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Summary
-This is a portfolio websiteof Rose. 
+This is a portfolio website of Rose. 
 
 ## Deployed Application
 The url to the deployed portfolio:
