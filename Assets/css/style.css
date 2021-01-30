@@ -240,8 +240,16 @@ main {
 .image5 {
     background-image: url("../images/scheduler.gif");
 } 
+.image7 {
+    background-image: url("../images/git-it-done.gif");
+} 
 
 .grid-item:first-child {
+    grid-column: span 8;
+    grid-row: span 2;
+}
+
+.grid-container .image7 {
     grid-column: span 8;
     grid-row: span 2;
 }
