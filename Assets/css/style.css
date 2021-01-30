@@ -190,7 +190,8 @@ main {
 }
 
 #bio-summary {
-    line-height: 1.6;
+    line-height: 2;
+    font-size: larger;
 }
 /* About me style ends */ 
 
