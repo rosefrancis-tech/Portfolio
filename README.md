@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Summary
-This is a portfolio website and it belongs to Rose. 
+This is a portfolio websiteof Rose. 
 
 ## Deployed Application
 The url to the deployed portfolio:
@@ -13,12 +13,10 @@ Please visit the githuib repository for the code.
 
 ## Technologies used
 
-This project was created with HTML and CSS.
+This website is created with HTML and CSS.
 
 ## How to navigate
 The picture below shows how to navigate the portfolio website  
 ![Website Navigation](/Assets/images/website-navigation.gif "Website Navigation")
 
-## Contact
-Email: TBD  
-Phone number: TBD
+
