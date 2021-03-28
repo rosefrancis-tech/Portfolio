@@ -249,6 +249,15 @@ main {
 .image9 {
     background-image: url("../images/run-buddy.jpg");
 } 
+.image10 {
+    background-image: url("../images/ezbudget.gif");
+} 
+.image11 {
+    background-image: url("../images/Note-taker.gif");
+} 
+.image12 {
+    background-image: url("../images/technologyBlog.PNG");
+} 
 
 
 .grid-item:first-child {
